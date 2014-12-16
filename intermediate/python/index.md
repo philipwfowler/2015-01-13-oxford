@@ -1,7 +1,7 @@
 ---
 layout: lesson
 root: ../..
-title: Programming with Python
+title: Advanced Programming with Python
 ---
 This lesson assumes that you already understand basic programming concepts
 and are either familiar with,

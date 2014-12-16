@@ -1,8 +1,7 @@
 ---
 layout: lesson
 root: ../..
-title: More Unix Shell
-level: Intermediate
+title: More Advanced Unix Shell
 ---
 FIXME: intro
 
