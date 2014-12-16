@@ -30,6 +30,8 @@ and to use that language *well*.
 5.  [Defensive Programming](05-defensive.html)
 6.  [Command-Line Programs](06-cmdline.html)
 
+If you would like to look at some more challenging lessons, please go [here](../../intermediate/python/index.html)
+
 [Reference](../ref/03-python.html)
 
 </div>
