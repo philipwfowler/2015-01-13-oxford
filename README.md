@@ -1,4 +1,4 @@
-Software Carpentry Workshops
+Software Carpentry Workshop
 ============================
 Oxford University
 =========================================
