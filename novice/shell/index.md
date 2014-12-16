@@ -21,8 +21,6 @@ so that they don't have to type the same things over and over again.
 6.  [Shell Scripts](05-script.html)
 7.  [Finding Things](06-find.html)
 
-There are also some more [challenging lessons](../../intermediate/shell/index.html)
-
 [Reference](../ref/01-shell.html)
 
 </div>

@@ -23,6 +23,8 @@ can and should be stored in a version control system.
 4.  [Conflicts](03-conflict.html)
 5.  [Open Science](04-open.html)
 
+There are also some more [challenging lessons](../../intermediate/git/index.html)
+
 [Reference](../ref/02-git.html)
 
 </div>

@@ -1,7 +1,7 @@
 ---
 layout: lesson
 root: ../..
-title: Version Control with Git
+title: Advanced Version Control with Git
 level: intermediate
 ---
 Version control is the lab notebook of the digital world:
