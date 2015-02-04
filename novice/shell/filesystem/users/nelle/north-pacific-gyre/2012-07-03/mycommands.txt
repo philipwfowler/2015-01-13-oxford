@@ -1,0 +1,500 @@
+  187  ls 01-numpy_files/
+  188  ls 01-numpy_files/novice/
+  189  ls 01-numpy_files/novice/python/
+  190  ls 01-numpy_files/novice/python/01-numpy_71_0.png 
+  191  open 01-numpy_files/novice/python/01-numpy_71_0.png
+  192  ls
+  193  cd bin/
+  194  ls
+  195  scp lambda:bin/makeBilay* .
+  196  ls -lrt
+  197  makeBilayerWhole.py --help
+  198  scp lambda:bin/progress* .
+  199  makeBilayerWhole.py --help
+  200  ls
+  201  cd
+  202  cd projects/2015-01-13-oxford/
+  203  ls
+  204  cd novice/
+  205  ls
+  206  cd shell/
+  207  ls
+  208  cd filesystem/
+  209  ls
+  210  cd users/
+  211  ls
+  212  cd nelle/
+  213  ls
+  214  ls north-pacific-gyre/
+  215  ls north-pacific-gyre/2012-07-03/
+  216  pwd
+  217  cd ..
+  218  ls
+  219  cd ..
+  220  ls
+  221  cd data/
+  222  ls
+  223  pwd
+  224  cd ../..
+  225  ls
+  226  cd filesystem/
+  227  ls
+  228  cd users/
+  229  ls
+  230  cd thing/
+  231  ls
+  232  cd backup/
+  233  ls
+  234  cd ../../nelle/
+  235  ls
+  236  cd molecules/
+  237  ls
+  238  wc *pdb
+  239  pwd
+  240  cd ../..
+  241  ls
+  242  ls
+  243  cd ../th
+  244  cd thing/
+  245  ls
+  246  cd backup/
+  247  ls
+  248  pwd
+  249  cd ../../
+  250  ls
+  251  cd nelle/
+  252  ls
+  253  cd data/
+  254  ls
+  255  cd ../
+  256  ls
+  257  cd writing/
+  258  ls
+  259  grep -n it haiku.txt 
+  260  pwd
+  261  cd
+  262  cd projects/2015-01-13-oxford/
+  263  ls
+  264  cd novice/
+  265  ls
+  266  cd git/
+  267  ls
+  268  cd img/
+  269  ls
+  270  cd ..
+  271  mkdir planets
+  272  cd planets/
+  273  ls
+  274  git init
+  275  ls
+  276  ls -a
+  277  nano mars.txt
+  278  git status
+  279  git add mars.txt 
+  280  git commit -m 'adde dmars'
+  281  git status
+  282  pwd
+  283  cd ..
+  284  ls
+  285  rm -r planets/
+  286  rm -rf planets/
+  287  ls
+  288  ls img/
+  289  pwd
+  290  cd ../
+  291  ls
+  292  cd python/
+  293  ls
+  294  ipython notebook
+  295  ipython-2.7 notebook
+  296  cd projects/
+  297  ls
+  298  cd cell-signalling/
+  299  ls
+  300  scp -r clathrin:projects/cell-signalling/fluctuations .
+  301  ls
+  302  cd fluctuations/
+  303  ls
+  304  open measure-spectral-intensity.py 
+  305  ./measure-spectral-intensity.py --pdb ../gro/td-24k-01-small.gro --traj ../xtc/td-24k-01-5us-dt6ns-small.xtc --outputstem td-24k-01-5us-dt6ns-small --start 0 --end 5000000 --bin 500000
+  306  cd ../render/sbcb-seminar-jan15/
+  307  ls
+  308  ssh lambda
+  309  ssh lambda.bioch.ox.ac.uk
+  310  ssh clathrin
+  311  cd progressbar.py
+  312  ls
+  313  cd
+  314  cd projects/
+  315  ls
+  316  cd cell-signalling/
+  317  ls
+  318  trash fluctuations/
+  319  rsync -e ssh -avh --progress lambda.bioch.ox.ac.uk:/Users/fowler/projects/cell-signalling/fluctuations .
+  320  cd fluctuations/
+  321  ls
+  322  gnuplot
+  323  ls
+  324  ls -lrt
+  325  ls
+  326  open run-half.sh 
+  327  open run-bin-0.240us.sh 
+  328  ./run-bin-0.240us.sh 
+  329  ps
+  330  ls
+  331  ps
+  332  kill 613
+  333  killall python
+  334  kill 656 657 658 659 660
+  335  ps
+  336  kill 661 662 663 664 665 666 667 668 669 670
+  337  ps
+  338  ps
+  339  ls
+  340  cd projects/
+  341  ls
+  342  cd swc-oxford/
+  343  ls
+  344  l s-lrt
+  345  ls -lrt
+  346  ls swc-oxford-13jan15-exercises
+  347  mv swc-oxford-13jan15-exercises.zip swc-exercises.zip
+  348  ls
+  349  cp swc-exercises.zip ../2015-01-13-oxford/
+  350  ls
+  351  less dat/ld-24k-01-5us-dt6ns-bin10-step_1.0-undulation-spectral-intensity-0.480us.dat 
+  352  less dat/ld-24k-01-5us-dt6ns-bin10-step_1.0-undulation-spectral-intensity-0.480us.dat 
+  353  awk '$1 > 0.01 && $1 < 0.1 {print $2}' dat/ld-24k-01-5us-dt6ns-bin10-step_1.0-undulation-spectral-intensity-0.480us.dat
+  354  awk '$1 > 0.01 && $1 < 0.1 {print $2}' dat/ld-24k-01-5us-dt6ns-bin10-step_1.0-undulation-spectral-intensity-0.480us.dat | sum-stream 
+  355  touch integrate-convergence.sh
+  356  open integrate-convergence.sh 
+  357  awk '$1 > 0.01 && $1 < 0.1 {print $2}' dat/ld-24k-01-5us-dt6ns-bin10-step_1.0-undulation-spectral-intensity-0.480us.dat | sum-stream 
+  358  for i in `ls dat/ld-24k-01-5us-dt6ns-bin10-step_1.0-undulation-spectral-intensity-*`; do echo $; done
+  359  for i in `ls dat/ld-24k-01-5us-dt6ns-bin10-step_1.0-undulation-spectral-intensity-*`; do echo $i; done
+  360  chod 750 integrate-convergence.sh 
+  361  chmod 750 integrate-convergence.sh
+  362  ./integrate-convergence.sh 
+  363  ./integrate-convergence.sh 
+  364  less moo.dat 
+  365  gnuplot
+  366  ./integrate-convergence.sh 
+  367  ls -lrt
+  368  less moo-ld.dat 
+  369  gnuplot
+  370  ls
+  371  less run-bin-0.240us.sh 
+  372  ./integrate-convergence.sh 
+  373  ls -lrt dat/
+  374  rm dat/*.convergence
+  375  ./integrate-convergence.sh 
+  376  ls -lrt dat/
+  377  gnuplot
+  378  ls
+  379  open measure-spectral-intensity.py 
+  380  ./measure-spectral-intensity.py --help
+  381  ./measure-spectral-intensity.py --ref ../gro/ld-1500-01-small.gro --traj ../xtc/ld-1500-01-5us-dt60ns-small.xtc --outputstem moo --bin 600000
+  382  ./measure-spectral-intensity.py --pdb ../gro/ld-1500-01-small.gro --traj ../xtc/ld-1500-01-5us-dt60ns-small.xtc --outputstem moo --start 2500000
+  383  ./measure-spectral-intensity.py --pdb ../gro/ld-1500-01-small.gro --traj ../xtc/ld-1500-01-5us-dt60ns-small.xtc --outputstem moo --start 3000000
+  384  ./measure-spectral-intensity.py --pdb ../gro/ld-1500-01-small.gro --traj ../xtc/ld-1500-01-5us-dt60ns-small.xtc --outputstem moo 
+  385  ./measure-spectral-intensity.py --pdb ../gro/ld-1500-01-small.gro --traj ../xtc/ld-1500-01-5us-dt60ns-small.xtc --outputstem moo 
+  386  ./measure-spectral-intensity.py --pdb ../gro/ld-1500-01-small.gro --traj ../xtc/ld-1500-01-5us-dt60ns-small.xtc --outputstem moo 
+  387  ./measure-spectral-intensity.py --pdb ../gro/ld-1500-01-small.gro --traj ../xtc/ld-1500-01-5us-dt60ns-small.xtc --outputstem moo 
+  388  ./measure-spectral-intensity.py --pdb ../gro/ld-1500-01-small.gro --traj ../xtc/ld-1500-01-5us-dt60ns-small.xtc --outputstem moo --end 5000000
+  389  ./measure-spectral-intensity.py --pdb ../gro/ld-1500-01-small.gro --traj ../xtc/ld-1500-01-5us-dt60ns-small.xtc --outputstem moo --start 2500000 --end 5000000
+  390  ls -lrt dat/
+  391  ls -lrt dat/moo-step_1.0-undulation-spectral-intensity.dat 
+  392  gnuplot
+  393  ./measure-spectral-intensity.py --pdb ../gro/ld-1500-01-small.gro --traj ../xtc/ld-1500-01-5us-dt6ns-small.xtc --outputstem moo --start 2500000 --end 5000000 --step 1.0
+  394  less run-half.sh 
+  395  less run-half.sh 
+  396  w
+  397  ls
+  398  cp measure-spectral-intensity.py ~/Dropbox/
+  399  ls
+  400  cp integrate-convergence.sh  ~/Dropbox/
+  401  pip install --user ipythonblocks
+  402  cd ../gro/
+  403  ipython-2.7 
+  404  cd projects/
+  405  ls
+  406  cd cell-signalling/render/
+  407  ls
+  408  ls sbcb-seminar-jan15/
+  409  cd sbcb-seminar-jan15/
+  410  ls
+  411  ls images/*
+  412  ls images/*/*
+  413  ls images/*/*0084.png
+  414  ls images/*/*/084.png
+  415  ls images/*/*/*084.png
+  416  open images/*/*/*084.png
+  417  ls
+  418  ls ../..
+  419  ls tcl/render-template.tcl 
+  420  open tcl/render-template.tcl
+  421  less ../../gro/ld-1500-01-
+  422  less ../../gro/ld-1500-01-nosol.gro 
+  423  grep PO4 ../../gro/ld-1500-01-nosol.gro | wc
+  424  grep ROH ../../gro/ld-1500-01-nosol.gro | wc
+  425  tail wc
+  426  tail ../../gro/ld-1500-01-nosol.gro
+  427  tail ../../gro/ld-6k-01-nosol.gro 
+  428  tail ../../gro/ld-24k-01-nosol.gro 
+  429  tail ../../gro/ld-54k-01-nosol.gro 
+  430  tail ../../gro/ld-54k-01-small.gro 
+  431  less ../../gro/ld-54k-01-small.gro
+  432  less ../../gro/ld-24k-01-small.gro
+  433  less ../../gro/ld-6k-01-small.gro 
+  434  tail ../../gro/lo-54k-01-small.gro 
+  435  tail ../../gro/lo-1500-01-small.gro 
+  436  tail ../../gro/lo-6k-01-small.gro 
+  437  tail ../../gro/lo-24k-01-small.gro 
+  438  cd ../..
+  439  ls
+  440  cd fluctuations/
+  441  ls
+  442  mkdir gp
+  443  ls -lrt dat/
+  444  gnuplot
+  445  ls
+  446  less run-half.sh 
+  447  gnuplot
+  448  cd 
+  449  cd projects/
+  450  ls
+  451  cd 2015-01-13-oxford/
+  452  ls
+  453  cd py
+  454  cd novice/python/
+  455  ipython notebook
+  456  ipython-2.7 notebook
+  457  ssh clathrin
+  458  easy_install-2.7 --user ipythonblocks
+  459  easy_install-2.7 --help
+  460  easy_install -h
+  461  easy_install --user ipythonblocks
+  462  easy_install --user setuptools
+  463  easy_install --user ipythonblocks
+  464  easy_install -U setuptools
+  465  sudo easy_install -U setuptools
+  466  easy_install --user ipythonblocks
+  467  sudo easy_install -U ipythonblocks
+  468  ls
+  469  mv ipythonblocks.py.html ipythonblocks.py
+  470  less ipythonblocks.py
+  471  ls ~/Downloads/ipythonblocks-master/ipythonblocks/ipythonblocks.py 
+  472  cp ~/Downloads/ipythonblocks-master/ipythonblocks/ipythonblocks.py .
+  473  ls
+  474  git status
+  475  git add ipythonblocks.py
+  476  git commit -m 'added ipythonblocks.py to the novice/python directory so the conditional ipynb works'
+  477  h push
+  478  git push origin gh-pages
+  479  cd ../sql/
+  480  ls
+  481  ls
+  482  ls
+  483  sudo port install ipython_select
+  484  port select list ipython
+  485  sudo port select --set ipython ipython-2.7
+  486  cd ../..
+  487  ls
+  488  ls
+  489  cd novice/shell/
+  490  ls
+  491  cd filesystem/
+  492  ls
+  493  cd
+  494  whoami
+  495  pwd
+  496  cd projects/2015-01-13-oxford/novice/shell/
+  497  ls
+  498  cd filesystem/
+  499  ls
+  500  cd projects/2015-01-13-oxford/
+  501  ls
+  502  cd novice/shell/
+  503  ls
+  504  cd filesystem/
+  505  ls
+  506  cd users/
+  507  ls
+  508  cd nelle/
+  509  ls
+  510  ls
+  511  ls
+  512  ls -F
+  513  ls -F
+  514  open solar.pdf 
+  515  ls -F 
+  516  ls -F /
+  517  ls -F /Applications/
+  518  pwd
+  519  ls
+  520  cd data/
+  521  pwd
+  522  ls -F
+  523  cd ..
+  524  pwd
+  525  ls -F -a
+  526  cd .
+  527  ls -F -a
+  528  ls creatures/
+  529  history
+  530  pwd
+  531  pwd
+  532  ls
+  533  cd north-pacific-gyre/
+  534  ls
+  535  cd 2012-07-03/
+  536  ls
+  537  cd ../..
+  538  pwd
+  539  ls -F
+  540  ls -Fa
+  541  mkdir thesis
+  542  ls -F
+  543  ls -F thesis/
+  544  ls -Fa thesis/
+  545  cd thesis/
+  546  ls
+  547  nano draft.txt
+  548  ls
+  549  nano draft.txt 
+  550  ls
+  551  nano draft.txt 
+  552  rm draft.txt 
+  553  ls
+  554  cd ..
+  555  ls
+  556  rm thesis
+  557  rmdir thesis/
+  558  mkdir thesis
+  559  cd thesis/
+  560  nano draft.txt
+  561  ls
+  562  cd ..
+  563  ls
+  564  rmdir thesis/
+  565  rm -r thesis/
+  566  mkdir thesis
+  567  cd thesis/
+  568  nano draft.txt
+  569  ls
+  570  cd ..
+  571  ls
+  572  ls thesis/
+  573  mv thesis/draft.txt thesis/quotes.txt
+  574  ls thesis/
+  575  cd thesis/
+  576  nano quotes.txt 
+  577  mv quotes.txt 
+  578  cd ..
+  579  ls
+  580  mv thesis help
+  581  ls
+  582  mv help/ thesis
+  583  ls
+  584  cd thesis/
+  585  ls
+  586  cp quotes.txt quotations.txt
+  587  ls
+  588  nano
+  589  pwd
+  590  cd ..
+  591  ls
+  592  pwd
+  593  cd molecules/
+  594  ls
+  595  less cubane.pdb 
+  596  vmd -pdb ethane.pdb 
+  597  ls
+  598  wc *.pdb
+  599  ls p*.pdb
+  600  ls o*.pdb
+  601  ls p?.pdb
+  602  ls p?????.pdb
+  603  ls p??????.pdb
+  604  ls p*.p??
+  605  wc -l *.pdb
+  606  wc -l *.pdb > lengths
+  607  ls
+  608  cat lengths 
+  609  more lengths 
+  610  ls
+  611  ls ~/
+  612  ls ~/myports.txt 
+  613  more ~/myports.txt
+  614  cat ~/myports.txt
+  615  less ~/myports.txt 
+  616  ls
+  617  ls
+  618  cat lengths 
+  619  sort -n lengths 
+  620  sort -n lengths > sorted-lengths
+  621  ls
+  622  cat sorted-lengths 
+  623  head -1 sorted-lengths 
+  624  sort -n lengths | head -1
+  625  wc -l *.pdb
+  626  wc -l *.pdb | sort -n | head -1
+  627  pwd
+  628  cd ../
+  629  ls
+  630  cd north-pacific-gyre/
+  631  ls
+  632  cd 2012-07-03/
+  633  ls
+  634  wc -l *.txt
+  635  wc -l *.txt | sort -n | head -5
+  636  wc -l *.txt | sort -n | tail -5
+  637  ls *Z.txt
+  638  ls *[A,B].txt
+  639  ls *[A,B,Z].txt
+  640  ls *[a,b].txt
+  641  ls *[A,B].txt
+  642  pwd
+  643  cd ../
+  644  cd ..
+  645  ls
+  646  cd creatures/
+  647  ls
+  648  for filename in basilisk.dat unicorn.dat; do  head -3 $filename; done
+  649  less basilisk.dat 
+  650  less unicorn.dat 
+  651  for filename in basilisk.dat unicorn.dat; do  head -3 $filename; done
+  652  for filename in basilisk.dat unicorn.dat; do head -3 $filename; done
+  653  for filename in *.dat; do  echo $filename; head -100 $filename | tail -20; done
+  654  echo hello there
+  655  echo $filename
+  656  unicorn.dat
+  657  touch red\ dragon.dat
+  658  ls
+  659  ls -l
+  660  for filename in *.dat; do echo $filename; done
+  661  mv red\ dragon.dat red-dragon.dat
+  662  ls
+  663  rm red-dragon.dat 
+  664  for filename in *.dat; do  mv $filename original-$filename; done
+  665  ls
+  666  for filename in *.dat; do  echo mv $filename original-$filename; done
+  667  cd ..
+  668  cd north-pacific-gyre/2012-07-03/
+  669  ls
+  670  for datafile in *[A,B].dat; do  echo $datafile; done
+  671  for datafile in *[A,B].txt; do  echo $datafile; done
+  672  for datafile in *[A,B].txt; do  echo $datafile stats-$datafile; done
+  673  for datafile in *[A,B].txt; do goostats $datafile stats-$datafile; done
+  674  less goostats 
+  675  for datafile in *[A,B].txt; do goostats $datafile stats-$datafile; done
+  676  for datafile in *[A,B].txt; do ./goostats $datafile stats-$datafile; done
+  677  ls -lrt
+  678  chmod 750 goostats 
+  679  for datafile in *[A,B].txt; do ./goostats $datafile stats-$datafile; done
+  680  for datafile in *[A,B].txt; do echo $datafile; ./goostats $datafile stats-$datafile; done
+  681  ls -ler
+  682  ls -lrt
+  683  rm stats-stats-NENE0*
+  684  ls -lrt
+  685  history
+  686  history > mycommands.txt
